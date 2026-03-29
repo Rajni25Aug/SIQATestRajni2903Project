@@ -8,6 +8,12 @@ packages:
   gitUsername: Rajni25Aug
   gitBranch: main
 - name: SSL_JDBC_Test
+  version: "1.0"
+  gitServerName: rimaSCName
+  gitUrl: https://github.com/prabhakarsag
+  gitUsername: rimabarman
+  gitBranch: main
+- name: JMS2waySSL
   gitServerName: rimaSCName
   gitUrl: https://github.com/prabhakarsag
   gitUsername: rimabarman
@@ -16,6 +22,8 @@ services:
 - serviceName: project.siqatestrajni2903.integrations:refdatatest
   packages:
   - name: SIQATestRajni2903Project
+    version: "1.0"
+  - name: JMS2waySSL
     version: "1.0"
   - name: SSL_JDBC_Test
     version: "1.0"
@@ -26,6 +34,8 @@ services:
 - serviceName: project.siqatestrajni2903.referencedata:refdata
   packages:
   - name: SIQATestRajni2903Project
+    version: "1.0"
+  - name: JMS2waySSL
     version: "1.0"
   - name: SSL_JDBC_Test
     version: "1.0"
