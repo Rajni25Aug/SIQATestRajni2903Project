@@ -14,6 +14,12 @@ packages:
   gitUsername: rimabarman
   gitBranch: main
 - name: JMS2waySSL
+  version: "1.0"
+  gitServerName: rimaSCName
+  gitUrl: https://github.com/prabhakarsag
+  gitUsername: rimabarman
+  gitBranch: main
+- name: JMSTest
   gitServerName: rimaSCName
   gitUrl: https://github.com/prabhakarsag
   gitUsername: rimabarman
@@ -27,6 +33,8 @@ services:
     version: "1.0"
   - name: SSL_JDBC_Test
     version: "1.0"
+  - name: JMSTest
+    version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
@@ -38,6 +46,8 @@ services:
   - name: JMS2waySSL
     version: "1.0"
   - name: SSL_JDBC_Test
+    version: "1.0"
+  - name: JMSTest
     version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
